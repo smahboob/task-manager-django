@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <title>Register</title>
+    </head>
+
+    <body>
+        <form method="POST">
+        {% csrf_token %} 
+        {{ form.as_p }} 
+        <input type="submit" name="sumbit">
+        </form>
+        <p>Alreday have an account? <a href="{% url 'login' %}">Register</a></p>
+    </body>
+</html>

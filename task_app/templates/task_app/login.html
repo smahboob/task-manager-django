@@ -1,16 +1,14 @@
 <html>
     <head>
-        <title>LoginView</title>
-        
+        <title>Login</title>
     </head>
-
     <body>
-<form method="POST">{% csrf_token %}
-    
-<!-- form variable -->    
- {{ form.as_p }} 
-
-  <input type="submit" name="sumbit">
-</form>
+        <form method="POST">
+            {% csrf_token %}    
+            <!-- form variable -->    
+            {{ form.as_p }} 
+        <input type="submit" name="sumbit">
+        </form>
+        <p>Don't have an account? <a href="{% url 'register' %}">Register</a></p>
     </body>
 </html>
