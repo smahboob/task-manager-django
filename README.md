@@ -1,4 +1,4 @@
-# task-manager-django
+# Task Manager Django
 
 ### Tasks left
 
