@@ -1,5 +1,5 @@
 # task-manager-django
 
-###task left
+### Tasks left
 
 - [ ] Add CSS Styling 
